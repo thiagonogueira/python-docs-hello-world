@@ -5,8 +5,4 @@ import test
 
 @app.route("/")
 def hello():
-    return "Hello, World!"
-
-@app.route("/test")
-def hello_test():
     return test.ret_message()
